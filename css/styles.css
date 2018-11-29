@@ -59,7 +59,7 @@ input + label {
 	transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
-    color: #9d9d9d;
+    color: #757575;
 }
 
 .payment-method, .purchase-order {
