@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	background: #eee;
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	padding: 15px 15px 0;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.box-wrap {
+	padding: 5px 0;
+	position: relative;
+}
+
+.section-head {
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+label {
+	color: #9d9d9d;
+}
+
+input {
+	width: 100%;
+	padding:0.8em;
+	background: transparent;
+	border: 1px solid #b5b5b5;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+input:focus ~ label,
+input:required:valid ~ label,
+input.input-selected ~ label {
+    top: -12px;
+    left: 0px;
+    font-size: 0.75em;
+    color: #575353 ;
+}
+
+input + label {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+    color: #9d9d9d;
+}
+
+.payment-method, .purchase-order {
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+}
+
+.change {
+	display: inline-block;
+	width: 17%;
+	text-align: right;
+}
+
+.change button {
+	border: none;
+	padding: 0;
+}
+
+.change button:hover {
+	text-decoration: underline;
+}
+
+.order-btn {
+	width: 100%;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	background-color: red;
+	color: white;
+	padding: 15px;
+}
+
+.order-wrapper {
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+
+#address1-error, #pobox-error {
+	display: inline-block;
+	color: red;
+	margin-top: 5px;
+	display: none;
+}
