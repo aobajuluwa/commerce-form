@@ -23,6 +23,7 @@ fieldset {
 }
 
 .section-head {
+	font-size: 0.9em;
 	padding-top: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
